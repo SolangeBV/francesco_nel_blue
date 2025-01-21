@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333; /* Dark text color for contrast */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #003366; /* Deep blue for the title */
+}
+
+.slogan {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    font-style: italic;
+    color: #007acc; /* Lighter blue for the slogan */
+}
+
+.description {
+    font-size: 1.2em;
+    color: #555; /* Medium gray for the description */
+}
