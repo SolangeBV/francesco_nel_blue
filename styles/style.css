@@ -63,11 +63,11 @@ header h1 {
 }
 
 .bio-photo {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%; /* Circular photo */
-    object-fit: cover;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow around the photo */
+    width: 120px; /* Adjust to your desired size */
+    height: 120px; /* Ensure the height matches the width for a circle */
+    border-radius: 50%; /* Make it circular */
+    object-fit: cover; /* Ensure the photo is properly cropped within the circle */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
 }
 
 .bio-text {
